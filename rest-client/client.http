@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+     "title": "this is a a title",
+     "author": "stephen mcking",
+     "url": "www.it.it",
+     "likes": "1000000"
+}
+
+
+###
+GET http://localhost:3003/api/blogs
